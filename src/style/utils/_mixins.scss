@@ -1,0 +1,11 @@
+// - Keep track of modules that have been imported, so we don't import more than once
+
+$imported-modules: () !default;
+
+@mixin exports($name) {
+  //check if they have been imported
+  @if (index($imported-modules, $name) == null) {
+    $imported-modules: append($imported-modules, $name) !global;
+    @content;
+  }
+}
