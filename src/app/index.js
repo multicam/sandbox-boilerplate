@@ -9,7 +9,7 @@ export default () => (
       <div className="branding">
         <a className="logo-and-title" routerlink="/" href="/">
           <span className="logo">
-            {/*} <img src={logo} alt="logo" width='48' /> */}
+            <img src={logo} alt="logo" width='48' />
           </span>
           <span className="title">Project B&W</span>
         </a>
