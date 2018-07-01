@@ -9,7 +9,7 @@ export default () => (
       <div className="branding">
         <a className="logo-and-title" routerlink="/" href="/">
           <span className="logo">
-            <img src={logo} alt="logo" width='48' />
+            <img src={logo} alt="logo" width="48" />
           </span>
           <span className="title">Project B&W</span>
         </a>
@@ -54,7 +54,7 @@ export default () => (
     </nav>
     <div className="content-container">
       <div className="content-area">
-        <div>Coucou</div>
+        <div>Coucou --- xoxoxo </div>
         <span className="spinner">Loading...</span>
       </div>
       <nav className="sidenav">
